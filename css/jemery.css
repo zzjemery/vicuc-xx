@@ -1,0 +1,106 @@
+body {
+  font-family: "微软雅黑";
+}
+#nav_ul li {
+  width: 129px;
+}
+#s2-nav {
+  display: none;
+}
+.icon-show {
+  visibility: hidden;
+}
+.dropdown-menu2 {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .caret {
+    display: none;
+  }
+  .all {
+    overflow: hidden;
+  }
+  .dropdown-menu2 a {
+    color: #000;
+    text-decoration: none;
+    line-height: 30px;
+  }
+  .icon-show {
+    margin-left: 8%;
+    visibility: visible;
+  }
+  .nav-su {
+    width: 70% !important;
+    position: relative;
+    left: -70%;
+  }
+  .s-nav #s-nav {
+    margin-top: -14px !important;
+  }
+  .icon_q {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid red;
+    margin-right: 5%;
+  }
+  .contorl {
+    position: relative;
+    left: 0%;
+  }
+  #s-nav li {
+    width: 80%;
+  }
+  #s-nav li a {
+    text-decoration: none;
+    text-align: left;
+    text-indent: 1em;
+  }
+  .dropdown-menu {
+    display: none !important;
+  }
+  .mobile1 {
+    display: block !important;
+  }
+  .mobile1 a {
+    color: #000;
+    line-height: 40px;
+  }
+}
+.s-nav {
+  background-color: #fff;
+  margin-bottom: 0;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+.s-nav #s-nav {
+  padding-top: 15px;
+}
+.s-nav .container-fluid {
+  height: 69px;
+}
+.s-nav .navbar-header {
+  height: 69px;
+}
+.s-nav .navbar-brand {
+  padding: 0 15px;
+}
+.s-nav li {
+  width: 100px;
+}
+.s-nav li a {
+  text-align: center;
+  padding: 15px 20px;
+  transition: all 2s;
+}
+.s-nav li:nth-child(5) {
+  width: 112px;
+}
+.s-nav li:nth-child(6) {
+  width: 133px;
+}
+.s-nav .dropdown-menu {
+  min-width: 100px;
+}
